@@ -1,0 +1,83 @@
+.img{
+    width: 300px;
+    animation-name: drago;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.platform{
+    width: 300px;
+    height: 25px;
+    background-color: aqua;
+    animation-duration: 4s;
+    animation-name: platform;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes drago {
+    0% {
+      margin-top: 200px;
+    }
+  
+  
+    25% {
+      margin-top: 0px;
+  
+      margin-left: 200px;
+
+    }
+  
+  
+    50% {
+       margin-left: 400px;
+      margin-top: 200px;
+    }
+  
+  
+    75% {
+      margin-left: 600px;
+      margin-top: 0px;
+    }
+  
+  
+    100% {
+        margin-top: 200px;
+        margin-left: 800px;
+    }
+  } 
+
+  @keyframes platform{
+    
+    0% {
+
+      }
+    
+    
+      25% {
+        margin-top: 200px;
+    
+        margin-left: 200px;
+  
+      }
+    
+    
+      50% {
+         margin-left: 400px;
+        margin-top: 0px;
+      }
+    
+    
+      75% {
+        margin-left: 600px;
+        margin-top: 200px;
+      }
+    
+    
+      100% {
+          margin-top: 0px;
+          margin-left: 800px;
+      }
+
+  }
